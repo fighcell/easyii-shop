@@ -1,22 +1,22 @@
 {
-    "name": "noumo/easyii-shop",
-    "description": "Easyiicms simple shop with examples of all modules",
+    "name": "fighcell/easyii-shop",
+    "description": "Easyiicms simple shop with examples of all modules adapted from noumo/easyii-shop, using noumo/easyii as base extension",
     "keywords": ["yii2", "cms", "control panel", "admin", "easy", "shop"],
-    "homepage": "http://easyiicms.com",
+    "homepage": "http://COMING SOON",
     "type": "project",
     "license": "GNU GPL V3",
     "support": {
         "wiki": "http://easyiicms.com/docs",
-        "source": "https://github.com/noumo/easyii-shop.git",
-        "issues": "https://github.com/noumo/easyii-shop/issues"
+        "source": "https://github.com/fighcell/easyii-shop.git",
+        "issues": "https://github.com/fighcell/easyii-shop/issues"
     },
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.4.0",
-        "noumo/easyii": "dev-master"
+        "fighcell/easyii": "dev-master"
     },
     "require-dev": {
-        "yiisoft/yii2-codeception": "*",
+        "codeception/codeception": "*",
         "yiisoft/yii2-debug": "*",
         "yiisoft/yii2-gii": "*",
         "yiisoft/yii2-faker": "*"
