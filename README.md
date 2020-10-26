@@ -19,6 +19,33 @@ uploads/            contains all uploaded files
 vendor/             contains dependent 3rd-party packages
 ```
 
+DOWNLOAD VIA COMPOSER
+Installation of EasyiiCMS is very similar to Yii framework 2.0.
+
+This is the preferred way of installing EasyiiCMS. If you do not have Composer yet, you may install it by following the instructions here.
+
+After installing Composer, run the following command to install the Composer Asset Plugin:
+php composer.phar global require "fxp/composer-asset-plugin:1.0.0"
+
+To install EasyiiCMS shop application(includes examples of all modules), run the command below
+php composer.phar create-project fighcell/easyii-shop shop dev-master
+
+To install EasyiiCMS blank application, run the command below
+php composer.phar create-project fighcell/easyii-start start dev-master
+
+
+Open app/config/web.php and insert a secret random string in the cookieValidationKey parameter (line: 15).
+You can generate random string on random.org.
+Set the write permissions 0777 on assets, runtime and uploads folders.
+
+INSTALLATION
+Configure database connection at app/config/db.php
+Set your language at app/config/web.php
+Open in browser your website url. You will see EasyiiCMS Welcome page
+Check the requirements.
+Fill simple form and complete installation.
+
+
 #### You can find full information in links bellow ####
 * [Homepage](http://easyiicms.com)
 * [Installation](http://easyiicms.com/docs/install)
@@ -27,3 +54,4 @@ vendor/             contains dependent 3rd-party packages
 #### Contacts ####
 
 Feel free to email me on noumohope@gmail.com
+If you would like updated version please email me @ ah.faisal@gmail.com
